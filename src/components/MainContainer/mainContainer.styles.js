@@ -10,6 +10,7 @@ const InfoContainer = styled.div`
 	@media only screen and (max-width: 500px) {
 		margin-bottom: 20px;
 		margin-top: 10px;
+		padding: 5px;
 	}
 `;
 const StyledP = styled.p`
