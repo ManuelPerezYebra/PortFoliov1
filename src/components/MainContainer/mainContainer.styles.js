@@ -29,7 +29,7 @@ const StyledH2 = styled.h2`
 	margin-top: ${({ $mt }) => $mt};
 	margin-bottom: ${({ $mb }) => $mb};
 	@media only screen and (max-width: 500px) {
-		font-size: ${({ $size }) => `calc(${$size} / 2)`};
+		font-size: ${({ $size }) => `calc(${$size} / 2.3)`};
 		margin-top: ${({ $mt }) => `calc(${$mt} / 2)`};
 		margin-bottom: ${({ $mb }) => `calc(${$mb} / 2)`};
 	}
