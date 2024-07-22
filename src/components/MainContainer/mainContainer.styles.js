@@ -60,6 +60,8 @@ const ProfileImageContainerDesktop = styled.div`
 `;
 const ProfileImageContainerMobile = styled.div`
 	display: none;
+	position: relative;
+	margin-top: 20px;
 
 	img {
 		width: 600px;
@@ -68,9 +70,20 @@ const ProfileImageContainerMobile = styled.div`
 	@media only screen and (max-width: 500px) {
 		display: flex;
 		justify-content: center;
+
+		border-radius: 50%;
 		img {
 			width: 150px;
 			background-color: transparent;
+			z-index: 2;
+		}
+		&::after {
+			position: absolute;
+			content: '';
+			background-color: #141414;
+			width: 150px;
+			height: 150px;
+			border-radius: 20%;
 		}
 	}
 `;
