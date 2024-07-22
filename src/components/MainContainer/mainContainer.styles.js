@@ -58,11 +58,32 @@ const ProfileImageContainerDesktop = styled.div`
 		display: none;
 	}
 `;
+const ProfileImageContainerMobile = styled.div`
+	display: none;
+
+	img {
+		width: 600px;
+		background-color: transparent;
+	}
+	@media only screen and (max-width: 500px) {
+		display: flex;
+		justify-content: center;
+		img {
+			width: 150px;
+			background-color: transparent;
+		}
+	}
+`;
+const AboutMeContainer = styled.div`
+	text-align: center;
+`;
 
 export {
 	InfoContainer,
 	StyledP,
 	StyledH2,
 	RRSSNav,
-	ProfileImageContainerDesktop
+	ProfileImageContainerDesktop,
+	ProfileImageContainerMobile,
+	AboutMeContainer
 };

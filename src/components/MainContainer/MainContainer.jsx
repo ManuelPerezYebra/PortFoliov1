@@ -1,7 +1,9 @@
 import { RrssButton } from '../rrssButton/RrssButton';
 import {
+	AboutMeContainer,
 	InfoContainer,
 	ProfileImageContainerDesktop,
+	ProfileImageContainerMobile,
 	RRSSNav,
 	StyledH2,
 	StyledP
@@ -64,6 +66,18 @@ export const MainContainer = () => {
 					href="mailto:'manuelperezyebra@gmail.com'"
 				/>
 			</RRSSNav>
+			<ProfileImageContainerMobile>
+				<img src='/Profile-img-2.png' alt='' />
+			</ProfileImageContainerMobile>
+			<AboutMeContainer>
+				<h2>Sobre Mi</h2>
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos minima
+					ea, exercitationem et laboriosam, repudiandae excepturi distinctio
+					omnis suscipit, consequuntur incidunt magnam perspiciatis nisi cumque
+					aliquam officia tempora laborum similique.
+				</p>
+			</AboutMeContainer>
 		</>
 	);
 };
