@@ -66,11 +66,12 @@ export const MainContainer = () => {
 					href="mailto:'manuelperezyebra@gmail.com'"
 				/>
 			</RRSSNav>
-			<ProfileImageContainerMobile>
-				<img src='/Profile-img-2.png' alt='' />
-			</ProfileImageContainerMobile>
+
 			<AboutMeContainer>
 				<h2>Sobre Mi</h2>
+				<ProfileImageContainerMobile>
+					<img src='/Profile-img-2.png' alt='' />
+				</ProfileImageContainerMobile>
 				<p>
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos minima
 					ea, exercitationem et laboriosam, repudiandae excepturi distinctio
