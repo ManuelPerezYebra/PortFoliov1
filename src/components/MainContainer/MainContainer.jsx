@@ -12,7 +12,7 @@ export const MainContainer = () => {
 		<>
 			<InfoContainer>
 				<ProfileImageContainer>
-					<img src='/public/Profile-img-2.png' alt='' />
+					<img src='/Profile-img-2.png' alt='' />
 				</ProfileImageContainer>
 				<StyledP $color='#11FFB5' $size='34px' $weight='700'>
 					✌️ Hola!, Soy-
@@ -47,19 +47,19 @@ export const MainContainer = () => {
 			</InfoContainer>
 			<RRSSNav>
 				<RrssButton
-					iconSrc='/public/github-mark.svg'
+					iconSrc='/github-mark.svg'
 					text='Github'
 					href='https://github.com/ManuelPerezYebra'
 				/>
 				<RrssButton
-					iconSrc='/public/icons8-linkedin.svg'
+					iconSrc='/icons8-linkedin.svg'
 					text='Linkedin'
 					href='www.linkedin.com/in/manuel-perez-yebra
 
 '
 				/>
 				<RrssButton
-					iconSrc='/public/icons8-email-64.png'
+					iconSrc='/icons8-email-64.png'
 					text='Email'
 					href="mailto:'manuelperezyebra@gmail.com'"
 				/>
