@@ -38,11 +38,11 @@ const RRSSNav = styled.nav`
 	gap: 10px;
 	z-index: 2;
 	@media only screen and (max-width: 500px) {
-		margin-top: 80px;
+		margin-top: 20px;
 		justify-content: center;
 	}
 `;
-const ProfileImageContainer = styled.div`
+const ProfileImageContainerDesktop = styled.div`
 	position: absolute;
 	right: -70px;
 	background-color: transparent;
@@ -54,17 +54,14 @@ const ProfileImageContainer = styled.div`
 		background-color: transparent;
 	}
 	@media only screen and (max-width: 500px) {
-		position: absolute;
-		right: 0px;
-		background-color: transparent;
-		top: 80px;
-		z-index: 1;
-
-		img {
-			width: 200px;
-			background-color: transparent;
-		}
+		display: none;
 	}
 `;
 
-export { InfoContainer, StyledP, StyledH2, RRSSNav, ProfileImageContainer };
+export {
+	InfoContainer,
+	StyledP,
+	StyledH2,
+	RRSSNav,
+	ProfileImageContainerDesktop
+};

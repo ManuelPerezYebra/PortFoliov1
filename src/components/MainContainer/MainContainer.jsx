@@ -1,7 +1,7 @@
 import { RrssButton } from '../rrssButton/RrssButton';
 import {
 	InfoContainer,
-	ProfileImageContainer,
+	ProfileImageContainerDesktop,
 	RRSSNav,
 	StyledH2,
 	StyledP
@@ -11,9 +11,9 @@ export const MainContainer = () => {
 	return (
 		<>
 			<InfoContainer>
-				<ProfileImageContainer>
+				<ProfileImageContainerDesktop>
 					<img src='/Profile-img-2.png' alt='' />
-				</ProfileImageContainer>
+				</ProfileImageContainerDesktop>
 				<StyledP $color='#11FFB5' $size='34px' $weight='700'>
 					✌️ Hola!, Soy-
 				</StyledP>
@@ -36,7 +36,7 @@ export const MainContainer = () => {
 					$mt='0px'
 					$mb='60px'
 				>
-					Diseñador UI UX con figma
+					Master realizado en Trazos, Madrid. <br /> Diseñador UI UX con figma
 				</StyledH2>
 				<StyledP $color='#8E9094' $size='22px' $weight='400'>
 					🚀 Especializado en Forntend (ReactJS)
