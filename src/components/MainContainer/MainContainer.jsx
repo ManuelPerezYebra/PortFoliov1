@@ -36,7 +36,7 @@ export const MainContainer = () => {
 					$mt='0px'
 					$mb='60px'
 				>
-					Master realizado en Trazos, Madrid. <br /> Diseñador UI UX con figma
+					Máster realizado en Trazos, Madrid. <br /> Diseñador UI UX con figma
 				</StyledH2>
 				<StyledP $color='#8E9094' $size='22px' $weight='400'>
 					🚀 Especializado en Forntend (ReactJS)

@@ -18,7 +18,7 @@ const StyledP = styled.p`
 	font-weight: ${({ $weight }) => $weight};
 	margin: 5px;
 	@media only screen and (max-width: 500px) {
-		font-size: ${({ $size }) => `calc(${$size} / 2)`};
+		font-size: ${({ $size }) => `calc(${$size} / 1.2)`};
 	}
 `;
 const StyledH2 = styled.h2`
