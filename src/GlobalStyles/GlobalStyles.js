@@ -5,6 +5,9 @@ export const GlobalStyles = createGlobalStyle`
   *::after,
   *::before{
     box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    background-color: #000000;
   }
 
   img{
