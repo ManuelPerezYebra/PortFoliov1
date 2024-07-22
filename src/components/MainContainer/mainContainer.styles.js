@@ -90,6 +90,17 @@ const ProfileImageContainerMobile = styled.div`
 `;
 const AboutMeContainer = styled.div`
 	text-align: center;
+	@media only screen and (max-width: 500px) {
+		h2 {
+			text-align: center;
+		}
+		text-align: justify;
+		padding: 20px;
+		p {
+			margin-top: 20px;
+			font-weight: 200;
+		}
+	}
 `;
 
 export {

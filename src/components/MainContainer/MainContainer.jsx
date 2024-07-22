@@ -1,3 +1,4 @@
+import { Styledspan } from '../Header/header.styles';
 import { RrssButton } from '../rrssButton/RrssButton';
 import {
 	AboutMeContainer,
@@ -68,15 +69,37 @@ export const MainContainer = () => {
 			</RRSSNav>
 
 			<AboutMeContainer>
-				<h2>Sobre Mi</h2>
+				<h2>⚡️ Sobre Mi</h2>
 				<ProfileImageContainerMobile>
 					<img src='/Profile-img-2.png' alt='' />
 				</ProfileImageContainerMobile>
 				<p>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos minima
-					ea, exercitationem et laboriosam, repudiandae excepturi distinctio
-					omnis suscipit, consequuntur incidunt magnam perspiciatis nisi cumque
-					aliquam officia tempora laborum similique.
+					Desde mi infancia, la{' '}
+					<Styledspan $color='#11FFB5' $weight='400'>
+						tecnología
+					</Styledspan>{' '}
+					ha sido mi principal fuente de inspiración y motivación. Actualmente,
+					como{' '}
+					<Styledspan $color='#11FFB5' $weight='400'>
+						{' '}
+						desarrollador web
+					</Styledspan>
+					, encuentro un profundo sentido de satisfacción en la creación de
+					soluciones digitales innovadoras. Mi compromiso con el{' '}
+					<Styledspan $color='#11FFB5' $weight='400'>
+						aprendizaje continuo
+					</Styledspan>{' '}
+					y mi pasión por la{' '}
+					<Styledspan $color='#11FFB5' $weight='400'>
+						excelencia
+					</Styledspan>{' '}
+					me impulsan a seguir avanzando en mi carrera. Estoy ansioso por
+					abrazar nuevos{' '}
+					<Styledspan $color='#11FFB5' $weight='400'>
+						desafios
+					</Styledspan>{' '}
+					y contribuir al avance de la industria tecnológica con determinación y
+					profesionalismo.
 				</p>
 			</AboutMeContainer>
 		</>

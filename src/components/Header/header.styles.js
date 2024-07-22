@@ -18,6 +18,7 @@ const StyledLogoContainer = styled.div`
 `;
 const Styledspan = styled.span`
 	color: ${({ $color }) => $color};
+	font-weight: ${({ $weight }) => $weight};
 `;
 const StyledNav = styled.nav`
 	font-size: 24px;
