@@ -57,9 +57,7 @@ export const MainContainer = () => {
 				<RrssButton
 					iconSrc='/icons8-linkedin.svg'
 					text='Linkedin'
-					href='www.linkedin.com/in/manuel-perez-yebra
-
-'
+					href='https://www.linkedin.com/in/manuel-perez-yebra'
 				/>
 				<RrssButton
 					iconSrc='/icons8-email-64.png'
