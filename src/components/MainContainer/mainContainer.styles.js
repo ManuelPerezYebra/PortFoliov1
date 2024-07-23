@@ -70,10 +70,12 @@ const ProfileImageContainerMobile = styled.div`
 	@media only screen and (max-width: 500px) {
 		display: flex;
 		justify-content: center;
+		margin: 0;
+		padding: 0;
 
 		border-radius: 50%;
 		img {
-			width: 150px;
+			width: 250px;
 			background-color: transparent;
 			z-index: 2;
 		}
@@ -81,16 +83,21 @@ const ProfileImageContainerMobile = styled.div`
 			position: absolute;
 			content: '';
 			background-color: #141414;
-			width: 150px;
-			height: 150px;
+			width: 250px;
+			height: 250px;
 			border-radius: 20%;
 			box-shadow: 0px 0px 24px 8px rgba(255, 255, 255, 0.12);
 		}
 	}
 `;
 const AboutMeContainer = styled.div`
-	text-align: center;
+	width: 50%;
+	text-align: justify;
+	font-size: 18px;
+	line-height: 1.8;
+
 	@media only screen and (max-width: 500px) {
+		width: 100%;
 		h2 {
 			text-align: center;
 		}
@@ -102,6 +109,25 @@ const AboutMeContainer = styled.div`
 		}
 	}
 `;
+const AboutMainContainer = styled.div`
+	display: flex;
+	gap: 20px;
+	@media only screen and (max-width: 500px) {
+		flex-direction: column;
+		justify-content: center;
+		margin: 0 auto;
+	}
+`;
+const TechnologiesContainer = styled.div`
+	display: flex;
+	gap: 5px;
+	width: 50%;
+	flex-wrap: wrap;
+	@media only screen and (max-width: 500px) {
+		width: 100%;
+		justify-content: center;
+	}
+`;
 
 export {
 	InfoContainer,
@@ -110,5 +136,7 @@ export {
 	RRSSNav,
 	ProfileImageContainerDesktop,
 	ProfileImageContainerMobile,
-	AboutMeContainer
+	AboutMeContainer,
+	AboutMainContainer,
+	TechnologiesContainer
 };
