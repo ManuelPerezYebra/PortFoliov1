@@ -175,7 +175,7 @@ export const MainContainer = () => {
 							<a href='https://gift-app-hys2.onrender.com/'>Click aqui</a>
 						</StyledButton>
 					</div>
-					<img src='/public/gif-api-repository.png' alt='' />
+					<img src='/gif-api-repository.png' alt='' />
 					<StyledButtonMobile>
 						<a href='https://gift-app-hys2.onrender.com/'>Click aqui</a>
 					</StyledButtonMobile>
