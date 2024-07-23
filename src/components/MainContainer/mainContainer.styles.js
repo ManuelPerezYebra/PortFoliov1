@@ -128,6 +128,68 @@ const TechnologiesContainer = styled.div`
 		justify-content: center;
 	}
 `;
+const ProyectContainer = styled.div`
+	margin-bottom: 30px;
+	@media only screen and (max-width: 500px) {
+		text-align: center;
+	}
+`;
+const ProyectContainerInfo = styled.div`
+	display: flex;
+	margin-bottom: 30px;
+	gap: 40px;
+	align-items: center;
+	img {
+		border-radius: 10px;
+		margin-top: 10px;
+		max-width: 50%;
+	}
+	@media only screen and (max-width: 500px) {
+		flex-direction: column;
+		text-align: center;
+		justify-content: center;
+		gap: 0;
+		padding: 10px;
+		p {
+			text-align: justify;
+		}
+		img {
+			max-width: 400px;
+		}
+	}
+`;
+const StyledButton = styled.button`
+	background-color: #11ffb5;
+	margin-top: 30px;
+	padding: 10px;
+	border-radius: 10px;
+	color: black;
+	border: none;
+	font-size: 18px;
+	a {
+		background-color: transparent;
+	}
+	@media only screen and (max-width: 500px) {
+		display: none;
+	}
+`;
+const StyledButtonMobile = styled.button`
+	background-color: #11ffb5;
+	display: none;
+	margin-top: 30px;
+	padding: 10px;
+	border-radius: 10px;
+	color: black;
+	border: none;
+	font-size: 18px;
+	a {
+		background-color: transparent;
+	}
+	@media only screen and (max-width: 500px) {
+		display: block;
+		text-align: center;
+	}
+`;
 
 export {
 	InfoContainer,
@@ -138,5 +200,9 @@ export {
 	ProfileImageContainerMobile,
 	AboutMeContainer,
 	AboutMainContainer,
-	TechnologiesContainer
+	TechnologiesContainer,
+	ProyectContainer,
+	ProyectContainerInfo,
+	StyledButton,
+	StyledButtonMobile
 };

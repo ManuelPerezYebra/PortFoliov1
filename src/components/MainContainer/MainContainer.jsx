@@ -7,7 +7,11 @@ import {
 	InfoContainer,
 	ProfileImageContainerDesktop,
 	ProfileImageContainerMobile,
+	ProyectContainer,
+	ProyectContainerInfo,
 	RRSSNav,
+	StyledButton,
+	StyledButtonMobile,
 	StyledH2,
 	StyledP,
 	TechnologiesContainer
@@ -154,6 +158,29 @@ export const MainContainer = () => {
 					/>
 				</TechnologiesContainer>
 			</AboutMainContainer>
+			<StyledHr />
+			<ProyectContainer>
+				<h2>🧑🏻‍💻 Proyectos</h2>
+				<ProyectContainerInfo>
+					<div>
+						<h2>Gif Repository API</h2>
+						<p>
+							Este web aplication es una API sencilla en la cual puedes buscar y
+							encontrar el gif perfecto para enviar a tus amigos. Ademas de
+							poder escribir la categoría que te gustaría ver, puedes introducir
+							la cantidad de Gif que quieres ver.
+						</p>
+						<p>Puedes acceder a probar la Api aqui:</p>
+						<StyledButton>
+							<a href='https://gift-app-hys2.onrender.com/'>Click aqui</a>
+						</StyledButton>
+					</div>
+					<img src='/public/gif-api-repository.png' alt='' />
+					<StyledButtonMobile>
+						<a href='https://gift-app-hys2.onrender.com/'>Click aqui</a>
+					</StyledButtonMobile>
+				</ProyectContainerInfo>
+			</ProyectContainer>
 		</>
 	);
 };
